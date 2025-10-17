@@ -1,0 +1,39 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.production
+
+# Laravel caches
+bootstrap/cache/*.php
+storage/framework/cache/data
+storage/framework/sessions
+storage/framework/views/*.php
+storage/logs/*.log
+
+# Build & assets
+/public/build
+/public/mix-manifest.json
+/.vite
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# PHPUnit & testing
+.phpunit.result.cache
+
+# Optional lock files (depends on team policy)
+# composer.lock
+# package-lock.json
